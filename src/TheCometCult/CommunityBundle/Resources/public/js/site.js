@@ -94,11 +94,11 @@ var Functions = {
 
         container.find('.fb-avatar').prop('src', 'http://graph.facebook.com/' + user.id + '/picture?width=120&height=120');
         container.find('.fb-name').text(user.first_name);
-
+        container.find('.fb-age').text(Functions.calcAge(user.birthday));
 
         container.find('input#member_fbId').val(user.id);
         container.find('input#member_name').val(user.first_name);
-
+        container.find('input#member_age').val(Functions.calcAge(user.birthday));
 
         setTimeout(Functions.checkFormValidation);
     },
