@@ -2,7 +2,7 @@ var FB_user;
 
  window.fbAsyncInit = function() {
     FB.init({
-        appId      : '6517963728315334',
+        appId      : '517963728315334',
         status     : true,
         xfbml      : false
     });
