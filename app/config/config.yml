@@ -67,9 +67,9 @@ doctrine:
 doctrine_mongodb:
     connections:
         default:
-            server: mongodb://localhost:27017
+            server: ds033317.mongolab.com
             options: {}
-    default_database: community_aggregator
+    default_database: heroku_app26509927
     document_managers:
         default:
             auto_mapping: true
