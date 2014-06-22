@@ -67,9 +67,9 @@ doctrine:
 doctrine_mongodb:
     connections:
         default:
-            server: ds033317.mongolab.com
+            server: mongodb://savetechcity:saveme@kahana.mongohq.com:10054/app26558025
             options: {}
-    default_database: heroku_app26509927
+    default_database: app26558025
     document_managers:
         default:
             auto_mapping: true
