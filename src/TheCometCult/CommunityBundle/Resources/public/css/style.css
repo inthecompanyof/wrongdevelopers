@@ -472,19 +472,19 @@ main .people .description a {
 
 }
 main .people li:nth-child(2n) article {
-    background: #72ebfc;
+
 }
 main .people li:nth-child(3n) article {
-    background: #fff876;
+
 }
 main .people li:nth-child(4n) article {
-    background: #e5e8ed;
+
 }
 main .people li:nth-child(4n) article {
-    background: #bd83fc;
+
 }
 main .people li:nth-child(4n) article {
-    background: #fdad72;
+ 
 }
 
 @media (min-width:560px) and (min-device-width:321px) {
